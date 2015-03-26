@@ -1,0 +1,17 @@
+{
+    "name": "tormorten/ebillett",
+    "description": "A simple class for getting eBillett entries in PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tor Morten Jensen",
+            "email": "tormorten@tormorten.no"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {"eBillett\\": "src/"}
+    }
+}
